@@ -43,6 +43,16 @@ function UploadArea() {
             id="fileUpload"
             style={{ display: "none" }}
           />
+          <img
+            src={`${process.env.PUBLIC_URL}/sheetUpload.png`}
+            alt="Sheet Upload"
+            style={{
+              width: "22px",
+              margin: "0 auto",
+              display: "block",
+              paddingBottom: "8px",
+            }}
+          />
           <label htmlFor="fileUpload" className="upload-label">
             {fileName || (
               <>

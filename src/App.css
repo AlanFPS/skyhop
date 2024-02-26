@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Raleway", sans-serif;
+  color: #1e3c69;
+  font-weight: 650;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.component-title {
+  font-weight: 800;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal {
+  width: 80%;
+  max-width: 1000px; /* Adjust based on your preference */
+  margin: 2rem auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.column {
+  flex: 1; /* Each column takes equal width */
+  margin-right: 20px; /* Add space between columns */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.short-separator {
+  width: 73%;
+  height: 2.7px;
+  border: none;
+  background: linear-gradient(to right, black 0.1%, lightgray 1%);
+  border-color: lightgray;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.4;
 }
+
+.column:last-child {
+  margin-right: 0; /* Remove margin for the last column */
+}
+
+.footer {
+  text-align: center; /* Center align the buttons */
+  margin-top: 20px; /* Space above the footer */
+}
+
+.footer button {
+  margin: 0 10px; /* Space between buttons */
+  padding: 10px 20px; /* Button padding */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Add more specific styles for your Dropdown; ElapseDataChecking; and ToleranceWindow components */

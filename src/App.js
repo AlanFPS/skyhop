@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css"; // Make sure this CSS is properly structured for layout
 import UploadArea from "./UploadArea";
-import Dropdown from "./Dropdown";
+import Dropdown from "./ImportDropdown";
 import ElapseDataChecking from "./ElapseDataChecking";
 import ToleranceWindow from "./ToleranceWindow";
 

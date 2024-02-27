@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css"; // Make sure this CSS is properly structured for layout
+import "./App.css";
 import UploadArea from "./UploadArea";
 import ImportDropdown from "./ImportDropdown";
 import ElapseDataChecking from "./ElapseDataChecking";
@@ -28,6 +28,7 @@ function App() {
             <ImportDropdown />
             <hr className="short-separator" />
             <UploadArea />
+            <hr className="short-separator" />
             <ElapseDataChecking />
             <ToleranceWindow />
           </div>

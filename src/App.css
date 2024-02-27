@@ -24,7 +24,7 @@ body {
 
 .column {
   flex: 1; /* Each column takes equal width */
-  margin-right: 20px; /* Add space between columns */
+  margin-right: 80px; /* Add space between columns */
 }
 
 .short-separator {

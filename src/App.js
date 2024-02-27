@@ -3,6 +3,7 @@ import "./App.css";
 import UploadArea from "./UploadArea";
 import ImportDropdown from "./ImportDropdown";
 import ElapseDataChecking from "./ElapseDataChecking";
+import SplitSchedule from "./SplitSchedule";
 import ToleranceWindow from "./ToleranceWindow";
 
 function App() {
@@ -32,7 +33,11 @@ function App() {
             <ElapseDataChecking />
             <ToleranceWindow />
           </div>
-          <div className="column">{/* Second column here */}</div>
+          <div className="column">
+            <SplitSchedule />
+            <hr className="short-separator" />
+            <SplitSchedule />
+          </div>
         </div>
         <div className="footer">
           <button>Continue Import</button>

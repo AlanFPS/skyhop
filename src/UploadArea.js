@@ -1,7 +1,7 @@
 import { toHaveFormValues } from "@testing-library/jest-dom/matchers";
 import { hasPointerEvents } from "@testing-library/user-event/dist/utils";
 import React, { useState } from "react";
-import "./UploadArea.css"; // Ensure this is correctly linked
+import "./UploadArea.css";
 
 function UploadArea() {
   const [fileName, setFileName] = useState("");

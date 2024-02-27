@@ -1,30 +1,21 @@
 import React, { useState } from "react";
-import "./UploadArea.css";
+import "./ElapseDataChecking.css";
 
-function UploadArea() {
-  const [fileName, setFileName] = useState("");
-
-  const handleDrop = (e) => {
-    e.preventDefault();
-    const files = e.dataTransfer.files;
-    if (files.length > 0) {
-      setFileName(files[0].name);
-    }
-  };
-
-  const handleDragOver = (e) => {
-    e.preventDefault();
-  };
-
+function ElapseDataChecking() {
   return (
-    <div
-      className="upload-area"
-      onDrop={handleDrop}
-      onDragOver={handleDragOver}
-    >
-      {fileName || "Drag & Drop Here Or Browse"}
+    <div className="elapse-wrapper">
+      <div className="elapse-header">
+        <div className="component-title">
+          <p>Elapse Data Checking</p>
+        </div>
+        <div className="component-title">
+          <p style={{ marginTop: "-8px", color: "#32AB89" }}>
+            No Elapsed Dates!
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default UploadArea;
+export default ElapseDataChecking;

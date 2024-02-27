@@ -1,0 +1,38 @@
+.dropdown-wrapper {
+  margin: 0px 0px 0px -10px;
+  text-align: left;
+}
+
+.dropdown-label {
+  margin-right: 10px;
+  color: #333;
+}
+
+.dropdown-select {
+  padding: 18px 16px 0px 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 0 0.2px rgb(180, 180, 180);
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 660;
+  text-align: left;
+  font-size: 17px;
+  width: 572px;
+  height: 45px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="%23666666"><polygon points="0,0 20,0 10,10"/></svg>'); /* Custom gray arrow */
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 12px;
+  padding-right: 30px;
+}
+
+/* Style for the option elements */
+.dropdown-select option {
+  padding: 10px;
+}

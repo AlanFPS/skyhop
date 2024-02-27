@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css"; // Make sure this CSS is properly structured for layout
+import "./App.css";
 import UploadArea from "./UploadArea";
-import Dropdown from "./ImportDropdown";
+import ImportDropdown from "./ImportDropdown";
 import ElapseDataChecking from "./ElapseDataChecking";
 import ToleranceWindow from "./ToleranceWindow";
 
@@ -25,15 +25,14 @@ function App() {
       <div className="modal">
         <div className="content">
           <div className="column">
-            <Dropdown />
+            <ImportDropdown />
             <hr className="short-separator" />
             <UploadArea />
+            <hr className="short-separator" />
             <ElapseDataChecking />
             <ToleranceWindow />
           </div>
-          <div className="column">
-            {/* Place other components or content for the second column here */}
-          </div>
+          <div className="column">{/* Second column here */}</div>
         </div>
         <div className="footer">
           <button>Continue Import</button>

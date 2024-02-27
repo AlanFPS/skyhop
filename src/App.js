@@ -8,9 +8,21 @@ import ToleranceWindow from "./ToleranceWindow";
 function App() {
   return (
     <div className="App">
+      <h1
+        style={{
+          textAlign: "center",
+          fontWeight: "800",
+          fontSize: "35px",
+          height: "30px",
+        }}
+      >
+        Document Upload
+      </h1>
+      <hr
+        className="short-separator"
+        style={{ width: "17%", margin: "20px auto", borderColor: "lightgray" }}
+      />
       <div className="modal">
-        <h1>Document Upload</h1>
-        <hr className="short-separator" />
         <div className="content">
           <div className="column">
             <Dropdown />

@@ -6,6 +6,7 @@ import ElapseDataChecking from "./ElapseDataChecking";
 import ToleranceWindow from "./ToleranceWindow";
 import SplitSchedule from "./SplitSchedule";
 import LocationChecking from "./LocationChecking";
+import Client from "./Client";
 
 function App() {
   return (
@@ -39,9 +40,20 @@ function App() {
             <hr className="short-separator-right" />
             <LocationChecking />
             <hr className="short-separator-right" />
+            <Client />
           </div>
         </div>
         <div className="footer">
+          <h1
+            style={{
+              textAlign: "center",
+              fontWeight: "800",
+              fontSize: "20px",
+              height: "30px",
+            }}
+          >
+            Data in the import file is correct. Please press Continue to import.
+          </h1>
           <button>Continue Import</button>
           <button>Cancel</button>
         </div>

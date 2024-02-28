@@ -1,0 +1,64 @@
+.client-wrapper {
+  text-align: left;
+  margin: -6px 0;
+}
+
+.client-header {
+  text-align: left;
+  margin: -0px;
+  margin-top: -5px;
+}
+
+.client-choice {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 33px;
+  margin-bottom: 65px;
+  margin-left: -5px;
+}
+
+.testing-centers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the space between each row */
+  margin-top: 20px; /* Space below the radio buttons */
+}
+
+.testing-center {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Space out label, dropdown, and icon */
+}
+
+.center-label {
+  flex: 1; /* Allows the label to take up necessary space */
+}
+
+.center-dropdown {
+  padding: 18px 16px 0px 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 0 0.2px rgb(180, 180, 180);
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 660;
+  text-align: left;
+  font-size: 17px;
+  width: 200px;
+  height: 45px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="%23666666"><polygon points="0,0 20,0 10,10"/></svg>'); /* Custom gray arrow */
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 12px;
+  padding-right: 30px;
+}
+
+.clock-icon {
+  flex: 0; /* The clock icon does not grow or shrink */
+  margin-left: 10px; /* Optional: Add some space between the dropdown and the icon */
+}

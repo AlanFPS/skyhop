@@ -56,8 +56,8 @@ function App() {
           >
             Data in the import file is correct. Please press Continue to import.
           </h1>
-          <button>Continue Import</button>
-          <button>Cancel</button>
+          <button className="continue-btn">Continue Import</button>
+          <button className="cancel-btn">Cancel</button>
         </div>
       </div>
     </div>

@@ -17,7 +17,6 @@
   margin-left: -5px;
 }
 
-/* New styles for customizing radio buttons */
 .client-choice input[type="radio"] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -50,12 +49,10 @@
   cursor: pointer;
 }
 
-/* Hover styles */
 .client-choice input[type="radio"]:hover {
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
 }
 
-/* Focus styles for keyboard navigation */
 .client-choice input[type="radio"]:focus {
   box-shadow: 0px 0px 5px rgba(50, 171, 137, 0.75);
 }

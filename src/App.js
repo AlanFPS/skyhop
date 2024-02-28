@@ -33,6 +33,7 @@ function App() {
             <UploadArea />
             <hr className="short-separator" />
             <ElapseDataChecking />
+            <hr className="short-separator" />
             <ToleranceWindow />
           </div>
           <div className="column">
@@ -47,8 +48,8 @@ function App() {
           <h1
             style={{
               textAlign: "center",
-              fontWeight: "800",
-              fontSize: "20px",
+              fontWeight: "850",
+              fontSize: "19.5px",
               height: "30px",
             }}
           >

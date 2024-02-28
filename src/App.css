@@ -12,13 +12,39 @@ body {
   font-weight: 850;
 }
 
+.close-btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #001c56;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 44px;
+  height: 35px;
+  font-size: 22px;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid #1e3c69;
+  transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+  background-color: #0d6dd3;
+}
+
 .modal {
+  position: relative;
   width: 90%;
   max-width: 1000px;
   margin: 2rem auto;
   background: white;
   padding: 20px 100px;
   border-radius: 30px;
+  padding-bottom: 50px;
 }
 
 .modal.content {

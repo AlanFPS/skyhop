@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <div className="modal">
+        <button className="close-btn">&#10005;</button>
         <div className="modal-content">
           <h1
             style={{

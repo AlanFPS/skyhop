@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AlanFPS/skyhop/static/css/main.c33fffd1.css",
+    "main.js": "/AlanFPS/skyhop/static/js/main.a0840eca.js",
+    "static/js/453.135ecd67.chunk.js": "/AlanFPS/skyhop/static/js/453.135ecd67.chunk.js",
+    "static/media/index.cjs": "/AlanFPS/skyhop/static/media/index.671993152dc0f6e0b17a.cjs",
+    "index.html": "/AlanFPS/skyhop/index.html",
+    "main.c33fffd1.css.map": "/AlanFPS/skyhop/static/css/main.c33fffd1.css.map",
+    "main.a0840eca.js.map": "/AlanFPS/skyhop/static/js/main.a0840eca.js.map",
+    "453.135ecd67.chunk.js.map": "/AlanFPS/skyhop/static/js/453.135ecd67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c33fffd1.css",
+    "static/js/main.a0840eca.js"
+  ]
+}

@@ -37,7 +37,6 @@ function Client() {
             <label className="center-label">Testing Center {index + 1}</label>
             <select className="center-dropdown">
               <option>Select Client</option>
-              {/* Add more options here */}
             </select>
             <img src="/skyhop/clock2.png" alt="Clock" className="clock-icon" />
           </div>

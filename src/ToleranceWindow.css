@@ -57,7 +57,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #32ab89;
+  box-shadow: 0 0 1px #4aab88;
 }
 
 input:checked + .slider:before {
@@ -72,7 +72,7 @@ input:checked + .slider:before {
   border: none; /* Remove border */
   color: #1e3c69; /* Button text color */
   text-align: left;
-  padding-left: 20px; /* Space before text and icon */
+  padding-left: 2px; /* Space before text and icon */
   cursor: pointer;
   display: inline-flex; /* Align text and icon */
   align-items: center; /* Center text and icon vertically */
@@ -84,16 +84,16 @@ input:checked + .slider:before {
 }
 
 .tolerance-button .clock-icon {
-  margin-left: 10px; /* Space between text and icon */
-  width: 24px; /* Adjust based on your icon size */
-  height: 24px; /* Adjust based on your icon size */
+  margin-left: 14px; /* Space between text and icon */
+  width: 28px; /* Adjust based on your icon size */
+  height: 28px; /* Adjust based on your icon size */
 }
 
 .separator {
   height: 35px; /* Match the height of your clock icon for alignment */
   width: 1px; /* Thin vertical line */
   background-color: #1e3c69; /* Color of the separator, adjust as needed */
-  margin-left: 20px; /* Space from the toggle switch or text */
+  margin-left: 24px; /* Space from the toggle switch or text */
   margin-right: 20px; /* Space before the text or clock */
   display: inline-block; /* Align with other inline elements */
   vertical-align: middle; /* Center align with text and icon */
@@ -104,4 +104,21 @@ input:checked + .slider:before {
   display: inline-flex; /* Align separator, text, and icon horizontally */
   align-items: center; /* Center align the items vertically */
   margin-left: 10px; /* Space from the toggle switch, adjust as needed */
+}
+
+.tolerance-level-text {
+  background-color: transparent; /* Button background color */
+  border: none; /* Remove border */
+  color: #1e3c69; /* Button text color */
+  text-align: left;
+  padding-left: 8px; /* Space before text and icon */
+  cursor: pointer;
+  display: inline-flex; /* Align text and icon */
+  align-items: center; /* Center text and icon vertically */
+  flex: 1;
+  font-family: inherit;
+  font-weight: 670;
+  font-size: 0.98em;
+  margin-top: -2px;
+  margin-bottom: 4px;
 }

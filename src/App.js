@@ -51,6 +51,7 @@ function App() {
               fontWeight: "850",
               fontSize: "19.5px",
               height: "30px",
+              marginTop: "30px",
             }}
           >
             Data in the import file is correct. Please press Continue to import.

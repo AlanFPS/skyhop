@@ -4,6 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Demo
 
-You can check it out over [here](https://facebook.github.io/create-react-app/docs/deployment).
+You can check it out over [here](https://alanfps.github.io/skyhop/).
 
 ![](https://github.com/AlanFPS/skyhop/blob/main/public/demo.gif)

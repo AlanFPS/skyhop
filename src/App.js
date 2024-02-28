@@ -11,53 +11,60 @@ import Client from "./Client";
 function App() {
   return (
     <div className="App">
-      <h1
-        style={{
-          textAlign: "center",
-          fontWeight: "800",
-          fontSize: "35px",
-          height: "30px",
-        }}
-      >
-        Document Upload
-      </h1>
-      <hr
-        className="short-separator"
-        style={{ width: "17%", margin: "20px auto", borderColor: "lightgray" }}
-      />
       <div className="modal">
-        <div className="content">
-          <div className="column">
-            <ImportDropdown />
-            <hr className="short-separator" />
-            <UploadArea />
-            <hr className="short-separator" />
-            <ElapseDataChecking />
-            <hr className="short-separator" />
-            <ToleranceWindow />
-          </div>
-          <div className="column">
-            <SplitSchedule />
-            <hr className="short-separator-right" />
-            <LocationChecking />
-            <hr className="short-separator-right" />
-            <Client />
-          </div>
-        </div>
-        <div className="footer">
+        <div className="modal-content">
           <h1
             style={{
               textAlign: "center",
-              fontWeight: "850",
-              fontSize: "19.5px",
+              fontWeight: "800",
+              fontSize: "35px",
               height: "30px",
-              marginTop: "30px",
             }}
           >
-            Data in the import file is correct. Please press Continue to import.
+            Document Upload
           </h1>
-          <button className="continue-btn">Continue Import</button>
-          <button className="cancel-btn">Cancel</button>
+          <hr
+            className="short-separator"
+            style={{
+              width: "17%",
+              margin: "20px auto",
+              borderColor: "lightgray",
+            }}
+          />
+          <div className="content">
+            <div className="column">
+              <ImportDropdown />
+              <hr className="short-separator" />
+              <UploadArea />
+              <hr className="short-separator" />
+              <ElapseDataChecking />
+              <hr className="short-separator" />
+              <ToleranceWindow />
+            </div>
+            <div className="column">
+              <SplitSchedule />
+              <hr className="short-separator-right" />
+              <LocationChecking />
+              <hr className="short-separator-right" />
+              <Client />
+            </div>
+          </div>
+          <div className="footer">
+            <h1
+              style={{
+                textAlign: "center",
+                fontWeight: "850",
+                fontSize: "19.5px",
+                height: "30px",
+                marginTop: "30px",
+              }}
+            >
+              Data in the import file is correct. Please press Continue to
+              import.
+            </h1>
+            <button className="continue-btn">Continue Import</button>
+            <button className="cancel-btn">Cancel</button>
+          </div>
         </div>
       </div>
     </div>

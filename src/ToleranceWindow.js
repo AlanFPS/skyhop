@@ -25,7 +25,7 @@ function ToleranceWindow() {
           <button className="tolerance-button">
             {isToggled ? "Toggle ON" : "Toggle OFF"}
             <div className="separator"></div>
-            <img src="/clock2.png" alt="Clock" className="clock-icon" />
+            <img src="/skyhop/clock2.png" alt="Clock" className="clock-icon" />
             <label className="tolerance-level-text">
               Select Tolerance Level
             </label>

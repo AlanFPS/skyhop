@@ -39,7 +39,7 @@ function Client() {
               <option>Select Client</option>
               {/* Add more options here */}
             </select>
-            <img src="/clock2.png" alt="Clock" className="clock-icon" />
+            <img src="/skyhop/clock2.png" alt="Clock" className="clock-icon" />
           </div>
         ))}
       </div>

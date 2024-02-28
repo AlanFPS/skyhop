@@ -1,5 +1,7 @@
 .dark-mode .tolerance-wrapper,
 .dark-mode .tolerance-header,
+.dark-mode .tolerance-button,
+.dark-mode .tolerance-level-text,
 .dark-mode .tolerance-title p {
   color: #f1f1f1;
 }
@@ -27,7 +29,7 @@
 }
 
 .tolerance-title p {
-  margin-top: 0;
+  /* margin-top: 0; */
 }
 
 .switch {
@@ -69,6 +71,10 @@
   border-radius: 50%;
 }
 
+.dark-mode input:checked + .slider {
+  background-color: #bdbdbda8;
+}
+
 input:checked + .slider {
   background-color: #1e3c69;
 }
@@ -97,6 +103,10 @@ input:checked + .slider:before {
   font-weight: 650;
   font-size: 0.88em;
   margin-top: -22px;
+}
+
+.dark-mode .clock-icon {
+  filter: invert(100%);
 }
 
 .tolerance-button .clock-icon {

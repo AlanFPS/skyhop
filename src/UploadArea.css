@@ -1,3 +1,11 @@
+.dark-mode .upload-btn {
+  background-color: #555;
+}
+
+.dark-mode .upload-label {
+  color: white;
+}
+
 .upload-wrapper {
   text-align: center;
   margin: 20px 0;

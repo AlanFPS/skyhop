@@ -46,7 +46,6 @@
 
 .split-choice label {
   cursor: pointer;
-  padding-left: 0px;
 }
 
 .split-choice input[type="radio"]:hover {

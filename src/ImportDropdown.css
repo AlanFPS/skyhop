@@ -8,6 +8,10 @@
   color: #333;
 }
 
+.dark-mode .dropdown-select {
+  color: rgba(0, 0, 0, 0.87);
+}
+
 .dropdown-select {
   padding: 18px 16px 0px 15px;
   border-radius: 12px;

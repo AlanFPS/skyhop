@@ -34,6 +34,11 @@
   transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
 
+.dark-mode .split-choice input[type="radio"]:checked {
+  background-color: #202020d2;
+  border-color: #bdbdbda8;
+}
+
 .split-choice input[type="radio"]:checked {
   background-color: #1e3c69;
   border-color: #1e3c69;

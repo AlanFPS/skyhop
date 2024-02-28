@@ -34,6 +34,11 @@
   transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
 
+.dark-mode .client-choice input[type="radio"]:checked {
+  background-color: #202020d2;
+  border-color: #bdbdbda8;
+}
+
 .client-choice input[type="radio"]:checked {
   background-color: #1e3c69;
   border-color: #1e3c69;
@@ -76,6 +81,10 @@
   font-weight: 650;
   font-size: 0.88em;
   margin-top: -22px;
+}
+
+.dark-mode .center-dropdown {
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .center-dropdown {

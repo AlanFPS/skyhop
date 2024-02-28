@@ -35,8 +35,8 @@ function App() {
           </div>
           <div className="column">
             <SplitSchedule />
-            <hr className="short-separator" />
-            <SplitSchedule />
+            <hr className="short-separator-right" />
+            {/* <SplitSchedule /> */}
           </div>
         </div>
         <div className="footer">

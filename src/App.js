@@ -27,7 +27,7 @@ function App() {
           <hr
             className="short-separator"
             style={{
-              width: "17%",
+              width: "33%",
               margin: "20px auto",
               borderColor: "lightgray",
             }}

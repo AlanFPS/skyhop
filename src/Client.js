@@ -18,7 +18,7 @@ function Client() {
               checked={choice === "single"}
               onChange={(e) => setChoice(e.target.value)}
             />
-            <span className="radio-text">Single</span>
+            <span className="client-radio-text">Single</span>
           </label>
           <label style={{ marginLeft: "20px" }}>
             <input
@@ -27,7 +27,7 @@ function Client() {
               checked={choice === "multiple"}
               onChange={(e) => setChoice(e.target.value)}
             />
-            <span className="radio-text">Multiple</span>
+            <span className="client-radio-text">Multiple</span>
           </label>
         </div>
       </div>

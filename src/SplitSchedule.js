@@ -19,7 +19,7 @@ function SplitSchedule() {
                 checked={choice === "yes"}
                 onChange={(e) => setChoice(e.target.value)}
               />{" "}
-              <span className="radio-text">Yes</span>
+              <span className="split-radio-text">Yes</span>
             </label>
             <label style={{ marginLeft: "20px" }}>
               {" "}
@@ -29,7 +29,7 @@ function SplitSchedule() {
                 checked={choice === "no"}
                 onChange={(e) => setChoice(e.target.value)}
               />{" "}
-              <span className="radio-text">No</span>
+              <span className="split-radio-text">No</span>
             </label>
           </div>
         </div>

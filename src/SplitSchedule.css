@@ -40,7 +40,7 @@
   border-color: #32ab89; /* Border color when checked */
 }
 
-.radio-text {
+.split-radio-text {
   position: relative;
   top: -3px;
 }

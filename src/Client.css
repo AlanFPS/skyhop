@@ -17,6 +17,51 @@
   margin-left: -5px;
 }
 
+/* New styles for customizing radio buttons */
+.client-choice input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff; /* Radio background */
+  /* margin: 0; */
+  font-size: 30px; /* Adjust for size */
+  width: 0.63em; /* Match width to height for circle */
+  height: 0.63em; /* Size of pseudo-radio button */
+  border: 2px solid rgba(2, 2, 2, 0.46); /* Border of pseudo-radio button */
+  border-radius: 50%; /* Round borders for circle type */
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0%); /* Add shadow - adjust as needed */
+  cursor: pointer;
+  margin-right: 5px; /* Space between the radio button and the label */
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.client-choice input[type="radio"]:checked {
+  background-color: #32ab89; /* Color when the radio is checked */
+  border-color: #32ab89; /* Border color when checked */
+}
+
+.client-radio-text {
+  position: relative;
+  top: -4px;
+  left: 3px;
+}
+
+.client-choice label {
+  cursor: pointer; /* Ensure the label also triggers the input */
+  /* padding-left: 0px; */
+}
+
+/* Hover styles */
+.client-choice input[type="radio"]:hover {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Focus styles for keyboard navigation */
+.client-choice input[type="radio"]:focus {
+  box-shadow: 0px 0px 5px rgba(50, 171, 137, 0.75); /* Adjust color as needed */
+}
+
 .testing-centers {
   display: flex;
   flex-direction: column;

@@ -1,30 +1,39 @@
 import React, { useState } from "react";
-import "./UploadArea.css";
+import "./ToleranceWindow.css"; // Ensure the CSS file is correctly linked
 
-function UploadArea() {
-  const [fileName, setFileName] = useState("");
-
-  const handleDrop = (e) => {
-    e.preventDefault();
-    const files = e.dataTransfer.files;
-    if (files.length > 0) {
-      setFileName(files[0].name);
-    }
-  };
-
-  const handleDragOver = (e) => {
-    e.preventDefault();
-  };
+function ToleranceWindow() {
+  const [isToggled, setIsToggled] = useState(false); // State to manage toggle
 
   return (
-    <div
-      className="upload-area"
-      onDrop={handleDrop}
-      onDragOver={handleDragOver}
-    >
-      {fileName || "Drag & Drop Here Or Browse"}
+    <div className="tolerance-wrapper">
+      <div className="tolerance-header">
+        <div className="tolerance-title">
+          <div className="component-title">
+            <p>Tolerance Window:</p>
+          </div>
+        </div>
+        <div className="toggle-container">
+          <label className="switch">
+            <input
+              type="checkbox"
+              checked={isToggled}
+              onChange={() => setIsToggled(!isToggled)}
+            />
+            <span className="slider round"></span>
+          </label>
+          <div className="tolerance-info"></div>
+          <button className="tolerance-button">
+            {isToggled ? "Toggle ON" : "Toggle OFF"}
+            <div className="separator"></div>
+            <img src="/clock2.png" alt="Clock" className="clock-icon" />
+            <label className="tolerance-level-text">
+              Select Tolerance Level
+            </label>
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default UploadArea;
+export default ToleranceWindow;

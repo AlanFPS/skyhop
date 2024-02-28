@@ -36,8 +36,8 @@
 }
 
 .split-choice input[type="radio"]:checked {
-  background-color: #32ab89;
-  border-color: #32ab89;
+  background-color: #1e3c69;
+  border-color: #1e3c69;
 }
 
 .split-radio-text {

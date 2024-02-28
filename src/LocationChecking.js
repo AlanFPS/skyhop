@@ -9,7 +9,7 @@ function LocationChecking() {
           <p>Location Checking:</p>
         </div>
         <div className="component-title">
-          <p style={{ marginTop: "-8px", color: "#32AB89" }}>All Available!</p>
+          <p style={{ marginTop: "-8px", color: "#4aab88" }}>All Available!</p>
         </div>
       </div>
     </div>

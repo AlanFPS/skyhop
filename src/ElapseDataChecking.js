@@ -9,7 +9,7 @@ function ElapseDataChecking() {
           <p>Elapse Data Checking</p>
         </div>
         <div className="component-title">
-          <p style={{ marginTop: "-8px", color: "#32AB89" }}>
+          <p style={{ marginTop: "-8px", color: "#4aab88" }}>
             No Elapsed Dates!
           </p>
         </div>

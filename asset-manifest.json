@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/skyhop/static/css/main.c33fffd1.css",
-    "main.js": "/skyhop/static/js/main.7053b251.js",
+    "main.css": "/skyhop/static/css/main.5cede8d1.css",
+    "main.js": "/skyhop/static/js/main.3bcf839a.js",
     "static/js/453.135ecd67.chunk.js": "/skyhop/static/js/453.135ecd67.chunk.js",
     "static/media/index.cjs": "/skyhop/static/media/index.671993152dc0f6e0b17a.cjs",
     "index.html": "/skyhop/index.html",
-    "main.c33fffd1.css.map": "/skyhop/static/css/main.c33fffd1.css.map",
-    "main.7053b251.js.map": "/skyhop/static/js/main.7053b251.js.map",
+    "main.5cede8d1.css.map": "/skyhop/static/css/main.5cede8d1.css.map",
+    "main.3bcf839a.js.map": "/skyhop/static/js/main.3bcf839a.js.map",
     "453.135ecd67.chunk.js.map": "/skyhop/static/js/453.135ecd67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c33fffd1.css",
-    "static/js/main.7053b251.js"
+    "static/css/main.5cede8d1.css",
+    "static/js/main.3bcf839a.js"
   ]
 }

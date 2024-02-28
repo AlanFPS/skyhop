@@ -1,3 +1,21 @@
+.dark-mode .tolerance-wrapper,
+.dark-mode .tolerance-header,
+.dark-mode .tolerance-title p {
+  color: #f1f1f1;
+}
+
+.dark-mode .switch .slider {
+  background-color: #555;
+}
+
+.dark-mode .switch .slider:before {
+  background-color: #ddd;
+}
+
+.dark-mode .separator {
+  background-color: #aaa;
+}
+
 .tolerance-wrapper {
   text-align: center;
   margin: 20px 0;

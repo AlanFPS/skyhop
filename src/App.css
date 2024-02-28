@@ -1,3 +1,40 @@
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .modal {
+  background: #333333;
+}
+
+.dark-mode .close-btn,
+.dark-mode .continue-btn,
+.dark-mode .cancel-btn {
+  background-color: #444444;
+  color: #dddddd;
+}
+
+.dark-btn {
+  position: absolute;
+  top: 15px;
+  left: 1140px;
+  background-color: #001c56;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 44px;
+  height: 35px;
+  font-size: 22px;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .dark-btn {
+  background-color: #818181;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   color: #1e3c69;
@@ -40,7 +77,7 @@ body {
   position: relative;
   width: 90%;
   max-width: 1000px;
-  margin: 2rem auto;
+  margin: 1rem auto;
   background: white;
   padding: 20px 100px;
   border-radius: 30px;

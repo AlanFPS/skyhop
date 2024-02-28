@@ -3,8 +3,9 @@ import "./App.css";
 import UploadArea from "./UploadArea";
 import ImportDropdown from "./ImportDropdown";
 import ElapseDataChecking from "./ElapseDataChecking";
-import SplitSchedule from "./SplitSchedule";
 import ToleranceWindow from "./ToleranceWindow";
+import SplitSchedule from "./SplitSchedule";
+import LocationChecking from "./LocationChecking";
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
           <div className="column">
             <SplitSchedule />
             <hr className="short-separator-right" />
-            {/* <SplitSchedule /> */}
+            <LocationChecking />
+            <hr className="short-separator-right" />
           </div>
         </div>
         <div className="footer">

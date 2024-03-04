@@ -21,15 +21,16 @@
   border: 1px solid rgb(180, 180, 180);
   border-radius: 15px;
   padding: 20px;
-  width: 495px;
-  display: inline-block;
+  width: 100%;
+  max-width: 495px;
+  display: block;
   box-shadow: 0 0 0 0.5px rgb(180, 180, 180);
 }
 
 .upload-area {
   border: 1px dashed rgb(180, 180, 180);
   border-radius: 5px;
-  padding: 50px 100px;
+  padding: 20px;
   margin-bottom: 8px;
   cursor: pointer;
   color: #ccc;
@@ -45,13 +46,31 @@
   background-color: #1e3c69;
   color: white;
   border: none;
-  padding: 15px 68px;
+  padding: 10px 20px;
   border-radius: 13px;
-  margin-bottom: -5px;
+  margin-bottom: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 200px;
 }
 
 .upload-btn:hover {
   background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .upload-container {
+    width: auto;
+  }
+
+  .upload-area {
+    padding: 30px;
+  }
+
+  .upload-label,
+  .upload-btn {
+    text-align: center;
+  }
 }
